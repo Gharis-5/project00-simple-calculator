@@ -1,9 +1,12 @@
 {
-  "name": "project00-simple-calculator",
+  "name": "gharis1-simple-calculator",
   "version": "2.0.0",
   "description": "A simple calculator, Nextjs and inquirer",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
